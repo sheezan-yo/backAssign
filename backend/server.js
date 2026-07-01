@@ -13,6 +13,7 @@ connectDB();
 app.use(cors({
     origin: [
         "http://localhost:5173",
+        "https://back-assignment.vercel.app"
     ],
     credentials: true,
 }));

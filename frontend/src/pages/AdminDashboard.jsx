@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import api from "../services/api";
 import { toast } from "react-toastify";
 import { useEffect } from "react";
@@ -74,9 +74,9 @@ const AdminDashboard = () => {
             <p className="text-slate-400"> Welcome, {user?.name} </p>
           </div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 rounded-full bg-red-500/20 text-red-400 border border-red-500/30 text-sm">
-              Admin
-            </span>
+            <button className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 transition">
+                <Link to="/dashboard">Dashboard</Link>
+              </button>
             <button
               onClick={logout}
               className="px-4 py-2 rounded-xl bg-red-600 hover:bg-red-700 transition"
