@@ -4,6 +4,9 @@ A full-stack Task Management application built with the MERN stack featuring JWT
 
 ## Deployed Site
 Link: https://back-assignment.vercel.app
+### Admin Credentials
+* Email: admin@test.com
+* password: admin123
 
 ## Features
 
