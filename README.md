@@ -3,9 +3,7 @@
 A full-stack Task Management application built with the MERN stack featuring JWT Authentication, Role-Based Access Control (RBAC), Task CRUD operations, Joi validation, and Swagger API documentation.
 
 ## Deployed Site
-```
-https://back-assignment.vercel.app
-```
+Link: https://back-assignment.vercel.app
 
 ## Features
 
