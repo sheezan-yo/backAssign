@@ -122,9 +122,11 @@ const Dashboard = () => {
           </div>
           <div className="flex items-center gap-3">
             {user?.role === "admin" && (
-              <button className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 transition">
-                <Link to="/admin">Admin</Link>
-              </button>
+              <Link to="/admin">
+                <button className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 transition">
+                  Admin
+                </button>
+              </Link>
             )}
             <button
               onClick={() => setisLogoutOpen(true)}
