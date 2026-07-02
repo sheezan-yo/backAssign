@@ -2,8 +2,16 @@
 
 A full-stack Task Management application built with the MERN stack featuring JWT Authentication, Role-Based Access Control (RBAC), Task CRUD operations, Joi validation, and Swagger API documentation.
 
-## Deployed Site
-Link: https://back-assignment.vercel.app
+## Live Demo
+Frontend:
+https://back-assignment.vercel.app
+
+Backend:
+https://backassign-7h3v.onrender.com
+
+Swagger:
+https://backassign-7h3v.onrender.com/api-docs
+
 ### Admin Credentials
 * Email: admin@test.com
 * password: admin123
@@ -48,6 +56,8 @@ Link: https://back-assignment.vercel.app
 * Joi Validation
 * Protected API Routes
 * Role-Based Authorization
+* Helmet Security Headers
+* Rate Limiting for Authentication Routes
 
 ### API Documentation
 
@@ -75,6 +85,12 @@ Link: https://back-assignment.vercel.app
 * bcryptjs
 * Joi
 * Swagger
+
+### Additional Tools
+* Helmet
+* Express Rate Limit
+* React Toastify
+* Swagger UI
 
 ---
 
@@ -199,11 +215,10 @@ This project follows several practices that support future scalability:
 Future improvements may include:
 
 * Redis Caching
-* Rate Limiting
-* Logging and Monitoring
 * Docker Containerization
 * Load Balancing
 * Microservice Architecture
+* Background Job Queues
 
 ---
 
